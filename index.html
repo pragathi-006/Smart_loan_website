@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dashboard - Smart Loans for Gig Workers</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #27ae60;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    .container {
+      padding: 2rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    .card h2 {
+      font-size: 1.2rem;
+      color: #2c3e50;
+      margin-bottom: 1rem;
+    }
+    .btn {
+      background-color: #27ae60;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    .btn:hover {
+      background-color: #219150;
+    }
+    .logout {
+      text-align: right;
+      padding: 1rem 2rem;
+    }
+    .logout button {
+      background-color: #e74c3c;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Smart Loans for Gig Workers</h1>
+  </header>
+
+  <div class="logout">
+    <a href="login.html"><button class="btn">Logout</button></a>
+  </div>
+
+  <div class="container">
+    <div class="card">
+      <h2>Your Loan Status</h2>
+      <p>Active Loan: ₹50,000</p>
+      <p>EMI Due: ₹2,500/month</p>
+      <button class="btn">View Details</button>
+    </div>
+
+    <div class="card">
+      <h2>Apply for a New Loan</h2>
+      <p>Get loans customized for your gig work pattern.</p>
+      <button class="btn">Apply Now</button>
+    </div>
+
+    <div class="card">
+      <h2>Upskill & Learn</h2>
+      <p>Take online courses to boost your qualifications.</p>
+      <button class="btn">Explore Courses</button>
+    </div>
+
+    <div class="card">
+      <h2>Part-Time Job Listings</h2>
+      <p>Find short-term gigs to stay financially stable.</p>
+      <button class="btn">Find Jobs</button>
+    </div>
+
+    <div class="card">
+      <h2>Credit Score Tips</h2>
+      <p>Learn how to maintain and improve your credit score.</p>
+      <button class="btn">View Tips</button>
+    </div>
+  </div>
+
+</body>
+</html>
